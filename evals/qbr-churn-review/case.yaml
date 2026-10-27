@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: qbr-churn-review
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The review does more than summarize Q3 numbers. It tests the "pricing" belief against the
+  customer-level data, finds that churn tracks skipped onboarding and the paid_social channel
+  rather than plan price, turns that into a short list of decisions with arguments for and
+  against, and says how the findings can be checked by something other than the model's own
+  judgment. The ordinary review content (what changed, why, what to do) is still present.

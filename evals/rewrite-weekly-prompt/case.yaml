@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: rewrite-weekly-prompt
+expected_outcome: |
+  A ready-to-paste rewritten prompt that reaches past "summarize and list themes": it states
+  what the feedback is for, works from the raw responses with real analysis tools, includes a
+  check that does not rely on the model grading itself, and the answer says what the user must
+  provide or enable.
