@@ -85,8 +85,14 @@ The cases use the folder layout that `claude plugin eval` reads (Claude Code 2.1
 
 Better examples, new domains and failing cases are the most useful contributions. Each test case is a folder in [evals/](evals/) with a prompt, an expected outcome and one-line graders.
 
-## Credit and license
+## Credits
 
-Ideas and framework: [Felix Rieseberg](https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/). The wording, examples, tests and structure here are original.
+- **[Felix Rieseberg](https://felixrieseberg.com/)** for the essay this skill is built on: [How to be more ambitious: A tutorial for humans with models](https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/) (13 Oct 2026). Altitude, Depth and Range, hard targets and the outside judge all come from it.
+- **[RoboNuggets](https://github.com/robonuggets)** for [be-ambitious](https://github.com/robonuggets/be-ambitious), another skill built from the same essay that turns all three axes into step-by-step instructions. Worth comparing.
+- **[DannyMac180](https://github.com/DannyMac180)** for [be-ambitious in DannyMac180/skills](https://github.com/DannyMac180/skills/tree/main/be-ambitious), an earlier, smaller skill that wraps Felix's "deeper, not bigger" prompt.
 
-Released under the MIT License (see [LICENSE](LICENSE)).
+The wording, examples, tests and structure in this repo are original.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
